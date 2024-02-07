@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+/* Configuracion */
+:root{
+  --text-main-color: #1f2038;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Globales */
+body{
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-main-color);
+}
+
+h1{
+  font-size: 2.5rem;
+}
+
+h2{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+h1,
+h2{
+  margin-bottom: 15px;
+}
+
+img{
+  max-width: 100%;
+}
+
+p{
+  font-size: 16px;
+  margin: 10px 0;
+  line-height: 1.7em;
+}
+
+.p-b1{
+  padding-bottom: 30px;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+}
+
+/* Clases de utilidad */
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.txt-large{
+  font-size: 20px;
+}
+
+.txt-center{
+  text-align: center;
+}
+
+.display-1{
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.display-2{
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.btn{
+  display: inline-block;
+  font-size: 15px;
+  padding: 12px 45px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 4px;
+}
+
+.btn-outline{
+  border: solid 1px var(--text-main-color);
+  color: var(--text-main-color);
+}
+
+.btn-outline:hover{
+  background-color: var(--text-main-color);
+  color: white;
+}
+
+.p-1{
+  padding: 80px 0;
+}
+
+.w-70{
+  width: 70%;
+}
+
+.w-30{
+  width: 30%;
+}
+
+.w-70,
+.w-30{
+  margin: 0 auto;
+}
+
+.bg-half{
+  background: linear-gradient(to bottom, #f2f2f2 0%, #f2f2f2 50%, #ffffff 50%, #ffffff 100%);
+}
+
+.bg-half-reverse{
+  background: linear-gradient(to top, #f2f2f2 0%, #f2f2f2 50%, #ffffff 50%, #ffffff 100%);
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-box{
+  flex: 1;
+}
+
+/* Header */
+
+header{
+  height: 100vh;
+}
+
+#navbar{
+  background-color: var(--text-main-color);
+}
+
+#navbar .logo img{
+  height: 50px;
+}
+
+#navbar a{
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#navbar .container{
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar ul{
+  display: flex;
+  gap: 20px;
+}
+
+/* showcase */ 
+#showcase figure img {
+  height: 350px;
+  border-radius: 50%;
+  border: 8px white solid;
+}
+
+/* About me */
+
+#about figure img{
+  padding-left: 80px;
+}
+
+/* extract */
+#extract figure img{
+  padding: 20px 0;
+}
+
+#extract .txt-large{
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* Portafolio */
+
+#portafolio figure img{
+  height: 450px;
+}
+
+/* Social */
+#social .social-flex{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+/*   footer   */
+
+.footer{
+  background-color: var(--text-main-color);
+  padding: 30px;
+  color: white;
+}
+
+.footer-items{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.footer-items li a{
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
